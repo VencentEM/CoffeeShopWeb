@@ -22,7 +22,7 @@ To set up this project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/CoffeeShopWeb.git
+   git clone https://github.com/VencentEM/CoffeeShopWeb.git
 Navigate to the project directory:
 
 bash
