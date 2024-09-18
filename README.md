@@ -7,8 +7,10 @@
 The website is not live <!-- if someone clones your repository and sets up the project as described in your README, they should be able to run the site on their local machine. The site itself isn't live on the internet, but the code is fully functional if set up correctly. -->
 
 **Author:**
+
 - **Imane**  
   [LinkedIn](#) https://www.linkedin.com/in/imane-amanar-2b434616a/
+
 **Blog Article:**  
 [CoffeeShop Project Blog](#) https://hackernoon.com/preview/tfVf4dZMnhBn292fpwd4
 
