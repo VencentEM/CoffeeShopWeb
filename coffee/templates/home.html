@@ -1,19 +1,39 @@
-{% extends 'base.html'%}
-
+{% extends 'base.html' %}
 
 {% block content %}
-<h1>Feel Good Coffee</h1>
-<div class="row">
-    {% for coffee in coffee %}
-    <div class="col">
-        <div class="card" style="width: 18rem;">
-            <img src="{{ coffee.image }}" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">{{coffee.name}}</h5>
-                <p class="card-text">$ {{coffee.price}}</p>
-                <a href="#" class="btn btn-primary">Add to Cart</a>
+<section id="home" class="bg-dark text-center">
+    <div class="container">
+        <h1>Welcome to Coffee Shop</h1>
+        <p>I am Imane. I created this website for people who want to enjoy coffee inside their house.</p>
+        <a href="#products" class="btn btn-primary">Explore Our Products</a>
+    </div>
+</section>
+
+<section id="products" class="my-5">
+    <div class="container">
+        <h2>Our Products</h2>
+        <div class="row">
+            {% for coffee in coffee %}
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{ coffee.image }}" class="card-img-top" alt="Coffee">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ coffee.name }}</h5>
+                        <p class="card-text">$ {{ coffee.price }}</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
             </div>
+            {% endfor %}
         </div>
     </div>
-    {% endfor %}
-    {% endblock %}
+</section>
+
+<section id="about" class="my-5">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>We are passionate about bringing the best coffee experience to your home. Explore our selection of premium
+            coffees and enjoy a delightful brew anytime.</p>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,37 @@
+/* General page styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Hero section styles */
+.bg-dark {
+    background: url('../images/coffee-background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-dark h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+.bg-dark p {
+    font-size: 1.5rem;
+}
+
+.btn-primary {
+    background-color: #6f4e37;
+    border: none;
+}
+
+/* Product cards */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
